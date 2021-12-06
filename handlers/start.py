@@ -74,10 +74,9 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "༎⃝🥀𝐔𝐏𝐃𝐀𝐓𝐄𝐒༎⃝➤", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
-                ],
+                ]
             ]
-        ),
-        disable_web_page_preview=True,
+        )
     )
 
 @Client.on_message(
