@@ -1,13 +1,13 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "name": "𝐀𝐋𝐄𝐗𝐀 𝐌𝐔𝐒𝐈𝐂",
+    "logo": "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg",
+    "description": "alexa music allow you to stream music trought the telegram voice chat feature.",
     "keywords": [
         "music", 
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/darkaman6/alexa-music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -66,12 +66,12 @@
         "ALIVE_IMG": {
             "description": "fill with your custom background image link",
             "required": false,
-            "value": "https://te.legra.ph/file/c7c0a16a6a545f2e93c0c.jpg"
+            "value": "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
         },
         "AMAN_IMG": {
             "description": "fill with your custom background image link",
             "required": false,
-            "value": "https://te.legra.ph/file/c7c0a16a6a545f2e93c0c.jpg"
+            "value": "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
