@@ -52,8 +52,19 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{ALIVE_IMG}",
-        caption=f"""✨ **𝐖𝐄𝐋𝐂𝐎𝐌𝐄 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝐂𝐀𝐍 𝐏𝐋𝐀𝐘 𝐌𝐔𝐒𝐈𝐂 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐎𝐏 𝐆𝐑𝐎𝐔𝐏 𝐕𝐎𝐈𝐂𝐄 𝐂𝐇𝐀𝐓 💖.**""",
+        caption=f"""✨ **
+╔═════════════════╗
+║
+╠═Bᴏᴛ Vᴇʀsɪᴏɴ ➪ 0.0.1
+║
+╠═Cʜᴀɴɴᴇʟ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://t.me/Gladiators_Projects)
+║
+╠═Sᴜᴘᴘᴏʀᴛ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://t.me/Gladiators_Support)
+║
+╠═Rᴇᴘᴏsɪᴛᴏʀʏ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://github.com/Gladiators-Projects/spammerbots)
+║
+╚═════════════════╝
+**[©️]({ALIVE_MEDIA})** **""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
