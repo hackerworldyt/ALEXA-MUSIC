@@ -51,20 +51,9 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        caption=f"""✨ **
-╔═════════════════╗
-║
-╠═Bᴏᴛ Vᴇʀsɪᴏɴ ➪ 0.0.1
-║
-╠═Cʜᴀɴɴᴇʟ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://t.me/Gladiators_Projects)
-║
-╠═Sᴜᴘᴘᴏʀᴛ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://t.me/Gladiators_Support)
-║
-╠═Rᴇᴘᴏsɪᴛᴏʀʏ ➪ [»Rᴇᴅɪʀᴇᴄᴛ«](https://github.com/Gladiators-Projects/spammerbots)
-║
-╚═════════════════╝
-**[©️]({ALIVE_MEDIA})** **""",
+    await message.reply_text(
+        f"""[✨]("https://te.legra.ph/file/40f0d50ddca4000984e64.jpg") **𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {message.from_user.mention()} !**\n
+🔥 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝐂𝐀𝐍 𝐏𝐋𝐀𝐘 𝐌𝐔𝐒𝐈𝐂 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐎𝐏 𝐆𝐑𝐎𝐔𝐏 𝐕𝐎𝐈𝐂𝐄 𝐂𝐇𝐀𝐓 💖.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -85,9 +74,10 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "༎⃝🥀𝐔𝐏𝐃𝐀𝐓𝐄𝐒༎⃝➤", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
-                ]
+                ],
             ]
-        )
+        ),
+        disable_web_page_preview=True,
     )
 
 @Client.on_message(
