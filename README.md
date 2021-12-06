@@ -1,7 +1,7 @@
-# 𓆩ᧁꫝꪮ𝘴𝓽 ꪑꪊ𝘴𝓲ᥴ𓆪
+# 𓆩ꪖꪶꫀ᥊ꪖ ꪑꪊ𝘴𝓲ᥴ𓆪
 
 <p align="center">
-  <img src="https://te.legra.ph/file/9ce1c6510f3d0ba654e4e.jpg">
+  <img src="https://te.legra.ph/file/40f0d50ddca4000984e64.jpg">
 </p>
 
 
