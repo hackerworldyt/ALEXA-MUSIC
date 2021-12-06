@@ -4,7 +4,7 @@ from os import path
 import converter
 from callsmusic import callsmusic, queues
 from config import (
-    ALIVE_IMG,
+    AMAN_IMG,
     BOT_USERNAME,
     DURATION_LIMIT,
     GROUP_SUPPORT,
@@ -20,8 +20,8 @@ from pytgcalls.types.input_stream import InputStream
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 
-@Client.on_message(command(["ghost", f"ghost@{BOT_USERNAME}"]) & other_filters)
-async def ghost(_, message: Message):
+@Client.on_message(command(["alexa", f"alexa@{BOT_USERNAME}"]) & other_filters)
+async def alexa(_, message: Message):
     costumer = message.from_user.mention
     lel = await message.reply_text("**༎⃝💔𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐍𝐆 𝐓𝐎 𝐆𝐇𝐎𝐒𝐓 𝐒𝐄𝐑𝐕𝐄𝐑𝐒༎⃝➤**")
 
@@ -61,7 +61,7 @@ async def ghost(_, message: Message):
     if chat_id in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo=f"{ALIVE_IMG}",
+            photo=f"{AMAN_IMG}",
             caption=f"💡 **𝚃𝚁𝙰𝙲𝙺 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝚀𝚄𝙴𝚄𝙴 »** `{position}`\n\n🏷 **𝙽𝙰𝙼𝙴 ✘** {title[:50]}\n⏱ **Duration ✘** `{duration}`\n🎧 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙱𝚈 ✘** {costumer}",
             reply_markup=keyboard,
         )
