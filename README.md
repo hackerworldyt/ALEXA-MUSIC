@@ -69,12 +69,12 @@
 
 ## 🚀 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙾 𝙷𝙴𝚁𝚄𝙺𝙾
 
-[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDARKAMAN6%2FALEXA-MUSIC)
+[![𝙶𝙷𝙾𝚂𝚃 𝙼𝚄𝚂𝙸𝙲](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fhackerworldyt%2FALEXA-MUSIC)
 
 ## 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙾 𝚁𝙰𝙸𝙻𝚆𝙰𝚈 🚄
 𝙵𝙾𝚁 𝙳𝙴𝙿𝙻𝙾𝚈 𝙾𝙽 𝚁𝙰𝙸𝙻𝚆𝙰𝚈 𝙼𝙰𝙺𝙴 [𝙽𝙴𝙲𝙴𝚂𝚂𝙰𝚁𝚈 𝚅𝙰𝚁𝙸𝙰𝙱𝙻𝙴𝚂 𝙷𝙴𝚁𝙴](https://github.com/DARKAMAN6/ALEXA-MUSIC), 𝚄 𝙷𝙰𝚅𝙴 𝚃𝙾 𝙵𝙸𝙻𝙻.
 
-[![ghost+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/DARKAMAN6/ALEXA-MUSIC&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ALIVE_NAME,ALIVE_IMG,AMAN_IMG,BG_IMAGE,BOT_NAME,ASSISTANT_NAME,DATABASE_URL,LOG_CHANNEL,GROUP_SUPPORT,OWNER_ID,OWNER_NAME,PMPERMIT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
+[![ghost+ᴅᴇᴘʟᴏʏ+ᴏɴ+ʀᴀɪʟᴡᴀʏ](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/hackerworldyt/ALEXA-MUSIC&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,ALIVE_NAME,ALIVE_IMG,AMAN_IMG,BG_IMAGE,BOT_NAME,ASSISTANT_NAME,DATABASE_URL,LOG_CHANNEL,GROUP_SUPPORT,OWNER_ID,OWNER_NAME,PMPERMIT,UPDATES_CHANNEL,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
 
 -------------------------------------------------
@@ -97,7 +97,7 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/DARKAMAN6/GHOST-X-MUSIC 
+git clone https://github.com/hackerworldyt/GHOST-X-MUSIC 
 cd VeezMusic
 pip3 install -U -r requirements.txt
 cp example.env .env # use vim to edit ENVs
