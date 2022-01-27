@@ -7,7 +7,7 @@
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/darkaman6/alexa-music",
+    "repository": "https://github.com/hackerworldyt/alexa-music",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
